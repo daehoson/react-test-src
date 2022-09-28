@@ -1,0 +1,210 @@
+.title01{
+    text-align: center;
+    color: #333333;
+    line-height:70px;
+}
+*{
+    margin: 0px; padding:0px;
+}
+.best_item{
+    width: 1280px;
+    margin:0px auto;
+}
+
+.market_item{
+    width: 1280px;
+    margin:0px auto;
+}
+
+.best_item > li{
+    width: 290px;
+    list-style: none;
+    float:left;
+    text-align: center;
+    border:2px solid #000;
+    margin: 0px 10px;
+    overflow:hidden;
+}
+
+.best_item img{
+    transition: 0.5s;
+    height: 150px;
+}
+
+.best_item img:hover{
+    filter:opacity(0.8);
+}
+
+.best_item p{
+    line-height: 50px;
+    font-weight: bold;
+}
+
+.market_item > li{
+    width: 290px;
+    list-style: none;
+    float:left;
+    text-align: center;
+    margin: 0px 10px;
+    overflow:hidden;
+}
+
+.item_img{
+    top:10px;
+}
+
+.item_img img{
+    height: 249px;
+    width: 320px;
+}
+
+.item_img:hover > img{
+    transform: scale(1.02);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.product-function img{
+    width: 45px;
+    height: 45px;    
+    border: 0;
+    vertical-align: top;
+    max-width: 100%;
+}
+
+.product-function{
+    right: 16px;
+    bottom: 16px;
+    z-index: 10;
+    position: absolute;
+    font-family: "Noto Sans", "malgun gothic", AppleGothic, dotum, sans-serif;
+    font-size: 14px;
+    color: #333;
+    border-radius: 0;
+    -webkit-appearance: button;
+    cursor: pointer;
+    overflow: visible;
+    background-color: transparent;
+    border: none;
+    font: inherit;
+    margin: 0;
+}
+
+
+.market_item p{
+    line-height: 50px;
+    font-weight: bold;
+}
+
+
+.title{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top: 50px;
+    padding: 50px;
+    color: #5f0080;
+    text-align: center;
+    border-bottom: 2px solid #333333;
+}
+
+.loginTitle{
+    text-align: center;
+    padding: 25px;
+    font-size: 20px;
+}
+
+.div1{
+    float: right;
+    width: 33%;
+    text-align: center;
+}
+.div2{
+    float: right;
+    width: 33%;
+    text-align: center;
+}
+.div3{
+    float: right;
+    width: 33%;
+    text-align: center;
+}
+
+.textbox{
+    width: 100%;
+    height: 35px;
+    margin: 3px;
+}
+
+.searchInfo{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    font-size: 13px;
+    -webkit-box-pack: end;
+}
+
+.textBoxMid{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.formAll{
+    width: 340px;
+    margin: 0 auto;
+    letter-spacing: -.6px;
+}
+
+.loginButton{
+    margin-top: 10px;
+    display: block;
+    padding: 0 10px;
+    text-align: center;
+    overflow: hidden;
+    width: 100%;
+    height: 54px;
+    border-radius: 3px;
+    color: #fff;
+    background-color: #5f0080;
+    border: 0 none;
+}
+
+.createButton{
+    margin-top: 10px;
+    display: block;
+    padding: 0 10px;
+    text-align: center;
+    overflow: hidden;
+    width: 100%;
+    height: 54px;
+    border-radius: 3px;
+    color: #5f0080;
+    background-color: #fff;
+    border: 1px solid #5f0080;
+}
+
+.formInput{
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.formInput > div{
+    margin: 5px;
+}
+
+.formInput > span{
+    margin: 5px;
+    color : red;
+}
+
+.percent{
+    color: red;
+    font-weight: 700;
+}
+
+.afterPrice{
+    font-weight: 700;
+}
+
+.price{
+    color: gray;
+    text-decoration:line-through;
+}
